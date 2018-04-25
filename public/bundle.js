@@ -83,4 +83,8 @@ eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset
 
 /***/ })
 
+<<<<<<< HEAD
 /******/ });
+=======
+/******/ });
+>>>>>>> a5f8289c7fe6bc3e362ae36a49dba8ca6fd47c91

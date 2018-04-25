@@ -15,7 +15,10 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
+<<<<<<< HEAD
     "ejs": "^2.5.9",
+=======
+>>>>>>> a5f8289c7fe6bc3e362ae36a49dba8ca6fd47c91
     "express": "^4.16.3",
     "mongodb": "^3.0.6",
     "react": "^16.3.2",
