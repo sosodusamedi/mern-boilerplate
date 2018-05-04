@@ -1,23 +1,21 @@
-const path = require('path');
-
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.join(__dirname, '/public'),
+    path: __dirname + '/public',
     filename: 'bundle.js'
   },
   module: {
-    rules: [
+    rules:[
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/,
+        use: ['babel-loader', 'eslint-loader'],
+        exclude: /node_modules/
       },
       {
-      test: /\.js$/,
-      use: ['babel-loader', 'eslint-loader'],
-      exclude: /node_modules/
-    }
+        test: /\.jsx$/,
+        use: ['babel-loader', 'eslint-loader'],
+        exclude: /node_modules/
+      }
     ]
   }
 };
